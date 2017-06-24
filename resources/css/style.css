@@ -1,0 +1,176 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  border: 2px dotted red;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+}
+
+header {
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  border: 2px dotted red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+}
+
+#brandbox {
+  padding-left: 10px;
+  height: 50px;
+}
+
+#brandbox img {
+  width: auto;
+  height: auto;
+  max-height: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  text-align: right;
+}
+
+#navlinks {
+  text-decoration: underline;
+  border: 2px dotted red;
+}
+
+a {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.container {
+  border: 2px dotted red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  width: 300px;
+  height: 200px;
+}
+
+#mission {
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  border: 2px dotted red;
+  display: flex;
+  align-items: center;
+}
+
+#missiontext {
+  display: flex;
+  width: 1200px;
+  height: 150px;
+  text-align: center;
+  background-color: black;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#missiontext h4 {
+  margin-bottom: : 1px;
+}
+
+#featuredtea {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+#teas {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+#teas h4 {
+  margin: 10px:
+}
+
+#locations {
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  height: 500px;
+  border: 2px dotted red;
+  flex-direction: column;
+  display: flex;
+  width: 1200px;
+  align-content: center;
+  justify-content: center;
+}
+
+#addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+#downtown {
+  justify-content: space-around;
+  width: 300px;
+  background-color: black;
+}
+
+#bayside {
+  justify-content: space-around;
+  width: 300px;
+  background-color: black;
+}
+
+#oakdale {
+  justify-content: space-around;
+  width: 300px;
+  background-color: black;
+}
+
+footer {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#footerblock {
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 20px;
+}
