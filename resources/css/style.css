@@ -5,7 +5,6 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  border: 2px dotted red;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -15,6 +14,7 @@ body {
 header {
   flex-direction: row;
   width: 100%;
+  z-index: 20;
 }
 
 
@@ -22,12 +22,12 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   width: 100%;
-  border: 2px dotted red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 20;
   background-color: black;
 }
 
@@ -52,7 +52,6 @@ nav {
 
 #navlinks {
   text-decoration: underline;
-  border: 2px dotted red;
 }
 
 a {
@@ -62,22 +61,23 @@ a {
 }
 
 .container {
-  border: 2px dotted red;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  top: 70px;
 }
 
 .container img {
   width: 300px;
   height: 200px;
+  padding: 0px 10px 0px 10px;
 }
 
 #mission {
   background-image: url(../../resources/images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
-  border: 2px dotted red;
   display: flex;
   align-items: center;
 }
@@ -104,8 +104,8 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 1000px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 #teas {
@@ -115,15 +115,27 @@ h2 {
   flex-wrap: wrap;
 }
 
-
 #teas h4 {
-  margin: 10px:
+  margin: 10px;
+}
+
+#row1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#row2 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
 }
 
 #locations {
   background-image: url(../../resources/images/img-locations-background.jpg);
+  background-size: 100% 140%;
   height: 500px;
-  border: 2px dotted red;
   flex-direction: column;
   display: flex;
   width: 1200px;
@@ -136,12 +148,14 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   opacity: 1;
+  line-height: 150%;
 }
 
 #downtown {
   justify-content: space-around;
   width: 300px;
   background-color: black;
+  margin-left: 70px;
 }
 
 #bayside {
@@ -154,6 +168,7 @@ h2 {
   justify-content: space-around;
   width: 300px;
   background-color: black;
+  margin-right: 70px;
 }
 
 footer {
@@ -163,6 +178,8 @@ footer {
 .footer {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 70px;
 }
 
 #footerblock {
